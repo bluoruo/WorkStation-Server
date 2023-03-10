@@ -29,14 +29,6 @@ func InitRouter() *gin.Engine {
 	//status 上报 客户端状态 相关
 	r.POST("/v2/status", wss.WssStatus)
 
-	/* im Robot */
-	// Path:/robot/v1/dingtalk	- 钉钉接口
-	imbot := r.Group("/robot/v1/dingtalk")
-	{
-		// 接收用户发来的消息
-		imbot.POST("/receiveMessage", bot.ReceiveDingTalkMessage)
-	}
-
 	// 结束返回 r
 	return r
 
