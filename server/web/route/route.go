@@ -2,8 +2,8 @@ package route
 
 import (
 	"github.com/gin-gonic/gin"
-	bot "imbot/server/web/api/v1"
-	wss "imbot/server/web/wss/v2"
+	bot "wsserver/server/web/api/v1"
+	wss "wsserver/server/web/wss/v2"
 )
 
 func InitRouter() *gin.Engine {

@@ -2,9 +2,9 @@ package v1
 
 import (
 	"github.com/gin-gonic/gin"
-	"imbot/lib"
 	"net/http"
 	"strings"
+	"wsserver/lib"
 )
 
 var header = make(map[string]string) //Header

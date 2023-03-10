@@ -5,9 +5,9 @@ import (
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 	"gorm.io/gorm/schema"
-	"imbot/lib"
 	"log"
 	"sync"
+	"wsserver/lib"
 )
 
 var (

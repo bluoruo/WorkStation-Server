@@ -3,10 +3,10 @@ package v2
 import (
 	"encoding/json"
 	"github.com/gin-gonic/gin"
-	"imbot/lib"
-	"imbot/server/web/model"
 	"log"
 	"net/http"
+	"wsserver/lib"
+	"wsserver/server/web/model"
 )
 
 type structReturnConfig struct {

@@ -1,4 +1,4 @@
-module imbot
+module wsserver
 
 go 1.19
 

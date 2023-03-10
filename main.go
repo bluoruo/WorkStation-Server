@@ -1,8 +1,8 @@
 package main
 
 import (
-	"imbot/lib"
-	"imbot/server/web/route"
+	"wsserver/lib"
+	"wsserver/server/web/route"
 )
 
 func init() {

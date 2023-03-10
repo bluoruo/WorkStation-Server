@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/gin-gonic/gin"
-	"imbot/lib"
-	"imbot/server/web/model"
 	"log"
 	"net/http"
+	"wsserver/lib"
+	"wsserver/server/web/model"
 )
 
 // 检查识别名 返回结构

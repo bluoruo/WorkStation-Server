@@ -2,10 +2,10 @@ package v2
 
 import (
 	"github.com/gin-gonic/gin"
-	"imbot/lib"
-	"imbot/server/web/model"
 	"net/http"
 	"strconv"
+	"wsserver/lib"
+	"wsserver/server/web/model"
 )
 
 func WssDDns(c *gin.Context) {
